@@ -1,41 +1,9 @@
-/* Resetting default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+h1{
+  background-color: green;
 }
-
-/* Styling header */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0; /* Adding padding to top and bottom */
+.red{
+  color: red;
 }
-
-/* Styling header content */
-.container {
-    width: 80%; /* Setting width of the container */
-    margin: 0 auto; /* Centering the container */
-    display: flex; /* Using flexbox for layout */
-    justify-content: space-between; /* Aligning items to the start and end */
-    align-items: center; /* Centering items vertically */
-}
-
-h1 {
-    font-size: 24px;
-}
-
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline; /* Displaying list items inline */
-    margin-left: 20px; /* Adding space between list items */
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
+.white{
+  color: white;
 }
